@@ -4,6 +4,7 @@
 #   "homebrew-tap" gives the short tap name Mukimies/tap)
 # Location in the tap: Casks/eq-ape.rb
 # Install:  brew install --cask Mukimies/tap/eq-ape
+#       or: brew tap Mukimies/tap && brew install --cask eq-ape
 #
 # Per release: `dist/update-cask.sh <version> dist/out/EQ-Ape-<version>.dmg.sha256 > Casks/eq-ape.rb`
 # prints this file with `version` and `sha256` replaced (the release workflow also prints it in the job
@@ -13,8 +14,8 @@
 # does not accept such apps (see docs/DISTRIBUTION.md section 8), so this cask is for the personal tap only.
 # `brew audit --cask` and `brew install` have never been run against this file.
 cask "eq-ape" do
-  version "0.1.0-beta.1"
-  sha256 "e4b15f39c59b68aca5553e236222a8b5ebba6cf0026b011f2152332673f761e3"
+  version "0.1.0-beta.2"
+  sha256 "4fcf3b51aa795042f862c0b99b5f953008a0cf3df0d159f0da786993e623bdf7"
 
   url "https://github.com/Mukimies/eq-ape/releases/download/v#{version}/EQ-Ape-#{version}.dmg"
   name "EQ Ape"
