@@ -15,8 +15,8 @@
 # `brew fetch --cask` (download + checksum) and `brew audit --cask` passed for 0.1.0-beta.2 on Homebrew 7.0.13;
 # `brew install` has never been run against this file.
 cask "eq-ape" do
-  version "0.1.0-beta.2"
-  sha256 "4fcf3b51aa795042f862c0b99b5f953008a0cf3df0d159f0da786993e623bdf7"
+  version "0.1.0-beta.3"
+  sha256 "9630423a5b1de50b76fe584a331b9a2deb6a98059bf15108383ec87b39821413"
 
   url "https://github.com/Mukimies/eq-ape/releases/download/v#{version}/EQ-Ape-#{version}.dmg"
   name "EQ Ape"
